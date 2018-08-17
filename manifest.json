@@ -1,0 +1,20 @@
+{
+    "name": "sim-ify",
+    "version": "1.0",
+    "description": "The Internet, narrated by Aasim",
+    "permissions": ["activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "images/me-sim.png"
+        }
+    },
+    "icons": {
+        "128": "images/me-sim.png"
+    },
+    "manifest_version": 2
+}
